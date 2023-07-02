@@ -1,0 +1,37 @@
+:root {
+	--orange: #F97316;
+	--blue: #002FA7;
+	--bg-white: #CBD5E1;
+	--text-color: #64748B;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+body {
+	background-color: var(--bg-white)
+}
+
+.card {
+	background-color: white;
+	border-radius: 5px;
+box-shadow: 0px 1px 6px 1px rgba(235,234,234,0.81);
+-webkit-box-shadow: 0px 1px 6px 1px rgba(235,234,234,0.81);
+-moz-box-shadow: 0px 1px 6px 1px rgba(235,234,234,0.81);}

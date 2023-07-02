@@ -1,0 +1,17 @@
+.system-prompt {
+  padding: 30px;
+}
+
+.system__prompt__input {
+  margin-top: 25px;
+}
+.card__title {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.card__text {
+  color: var(--text-color);
+  font-size: 25;
+  margin-top: 10px;
+}
