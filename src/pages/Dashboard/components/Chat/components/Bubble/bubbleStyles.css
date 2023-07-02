@@ -1,0 +1,30 @@
+.bubble {
+    width: auto;
+    padding: 30px;
+   
+}
+
+.bubble__header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.bubble__header > h2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #10B981;
+}
+
+.bubble__header > span {
+    font-size: 14px;
+    margin-top: 4px;
+    color: gray;
+}
+
+.separator {
+    background-color: var(--bg-white);
+    height: 1px;
+    margin: 10px;
+}

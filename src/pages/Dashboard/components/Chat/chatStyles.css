@@ -1,0 +1,32 @@
+ .chat {
+    width: 100%;
+    height: 100vh;
+    border-radius: 5px;
+    border: solid 1px gray;
+ }
+
+ .chat__head {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 1px var(--white-background);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+
+ .chat__head__title {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+ }
+
+ .chat__screen {
+    height: 70vh;
+    width: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+ }

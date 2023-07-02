@@ -1,0 +1,3 @@
+const setStorageKey = () => {}
+
+const getStorageByKey = () => {}
